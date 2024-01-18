@@ -11,6 +11,7 @@ facebook    - Entypo, facebook          - e806
 arrow-right - Entypo, right-open-big    - e807
 arrow-left  - Entypo, left-open-big     - e808
 twitter     - Entypo, twitter           - e809
+instagram   - Font Awesome, instagram   - f16d
 menu        - Font Awesome, menu        - e80a
 globe       - Font Awesome, globe       - e80b
 search      - Font Awesome, search      - e80c
