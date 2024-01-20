@@ -293,7 +293,7 @@ td,th {
 .icon-location:before { content: '\e803'; } /* '' */
 .icon-link:before { content: '\e804'; } /* '' */
 .icon-googleplus:before { content: '\e805'; } /* '' */
-.icon-facebook:before { content: '\e806'; } /* '' */
+.icon-facebook:before { content: '\f30c'; } /* '' */
 .icon-instagram:before { content: '\f16d'; } /* '' */
 .icon-arrow-right:before { content: '\e807'; } /* '' */
 .icon-arrow-left:before { content: '\e808'; } /* '' */
