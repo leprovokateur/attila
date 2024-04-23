@@ -2098,8 +2098,8 @@ button,input,select,textarea {
 
 @media only screen and (min-width: 640px) {
     .cover-active .nav-header li a,.cover-active .nav-header li button:not(.cta) {
-        color:rgba(255,255,255,0.8);
-        border-color: rgba(255,255,255,0.8)
+        color:rgba(255,255,255,1);
+        border-color: rgba(0,0,0,1)
     }
 }
 
