@@ -25,7 +25,14 @@
   {% block canonical_url %}
   <link href="{{ SITEURL }}/" rel="canonical" />
   {% endblock canonical_url %}
-
+  <!-- Javascript -->
+      {% if article %}
+    {% if article.stylesheets %}
+        {% for stylesheet in article.stylesheets %}
+{{ stylesheet }}
+        {% endfor %}
+    {% endif %}
+{% endif %}
   <!-- Feed -->
   {% for name,link in SOCIAL if name.lower() in ['rss', 'rss-square', 'feed'] %}
   <link href="{{ link }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Full Atom Feed" />
@@ -253,5 +260,11 @@
   <!-- 	The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in article.html, but it needs to be included down here, after jQuery has already loaded. -->
   {% block scripts %}{% endblock scripts %}
 </body>
-
+{% if page %}
+    {% if page.javascripts %}
+        {% for javascript in page.javascripts %}
+{{ javascript }}
+        {% endfor %}
+    {% endif %}
+{% endif %}
 </html>
